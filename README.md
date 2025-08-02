@@ -9,17 +9,30 @@ LangDocker is a **local-first developer tool** that allows seamless execution of
 
 ## Features
 
+- **No need to install any languages or runtimes locally**
 - Executes code files in isolated Docker containers
 - Language-agnostic: supports multiple programming languages via config
 - Automatic language detection by file extension
 - Resource-limited container execution (CPU, memory, timeout)
 - Secure execution with limited network and file system access
 - Logging with flexible verbosity and output modes
-- Dynamic PowerShell functions for easy use
 - Supports running commands from both PowerShell and Command Prompt
 - Simple installation and setup scripts included
+- Minimal configuration required — ready to use out of the box
 
 ---
+
+## Key Benefit: _No Language Installation or Complex Configuration Required_
+
+> **LangDocker lets you run code in multiple programming languages without needing to install any language runtimes, compilers, or interpreters on your machine.**
+>
+> All language environments run inside Docker containers, fully isolated and pre-configured with everything needed. This means:
+>
+> - No manual language or dependency installations
+> - No complicated setup or environment management
+> - No conflicts with your local system setup
+>
+> Just drop your code file and run it using `runlang` or `python,java,go,.etc` —LangDocker handles the rest automatically.
 
 ## Project Structure
 
