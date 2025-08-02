@@ -3,7 +3,7 @@
 [![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-blue.svg)]()
 [![PowerShell](https://img.shields.io/badge/Docker-28%2B-cyan.svg)]()
 
-LangRunner is a **local-first developer tool** that allows seamless execution of code files in multiple programming languages using Docker, as if the **languages were installed locally**. It auto-detects the language by file extension, uses default or configurable Docker images, and runs the code inside lightweight containers with timeout and resource constraints. Supports easy extension to new languages via a simple config file.
+LangDocker is a **local-first developer tool** that allows seamless execution of code files in multiple programming languages using Docker, as if the **languages were installed locally**. It auto-detects the language by file extension, uses default or configurable Docker images, and runs the code inside lightweight containers with timeout and resource constraints. Supports easy extension to new languages via a simple config file.
 
 ---
 
