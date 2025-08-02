@@ -1,0 +1,20 @@
+{
+  "python": {
+    "image": "python:3.9",
+    "command": "python {file}",
+    "extensions": ["py"],
+    "mount_path": "/app"
+  },
+  "java": {
+    "image": "eclipse-temurin:11",
+    "command": "java {file}",
+    "extensions": ["java"],
+    "mount_path": "/app"
+  },
+  "go": {
+    "image": "golang:1.18",
+    "command": "go run {file}",
+    "extensions": ["go"],
+    "mount_path": "/app"
+  }
+}
